@@ -20,3 +20,12 @@ pip install -r requirements.txt
 # Set up environment variables and run the application
 export FLASK_APP=run.py
 flask run --host=0.0.0.0 --port=5000
+
+# After initial configuration, only the following steps are required to run the application
+# Start virtual environment
+source venv/bin/activate
+
+# Run the application
+flask run --host=0.0.0.0 --port=5000
+# OR
+python3 run.py
